@@ -1,0 +1,24 @@
+nav {
+    background-color: #add8e6; /* Baby blue background */
+    padding: 15px;
+    display: flex;
+    justify-content: space-around; /* Evenly space the links */
+    align-items: center;
+    border-radius: 8px; /* Smooth edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Larger font size */
+    font-weight: bold;
+    color: #004080; /* Darker blue for text */
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #004080; /* Dark blue background on hover */
+    color: #ffffff; /* White text on hover */
+}
